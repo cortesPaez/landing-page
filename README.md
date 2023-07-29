@@ -6,19 +6,23 @@ readme # Prueba Tecnica ReactJS 📝
 ### Prerequisites
 
 Install [Node](https://nodejs.org/en) and NPM
-  sh
+In the terminal
+```sh
   npm install npm@latest -g
-
+```
 
 ### Installation
 
 1. Install NPM packages
-sh
-npm i
+In the terminal
+```sh
+  npm i
+```
 
 
 ### Run app
 
 In the terminal
-sh
-npm run dev
+```sh
+  npm run dev
+```
