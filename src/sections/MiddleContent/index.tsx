@@ -19,7 +19,7 @@ export interface RootState {
 	};
 }
 
-export const MiddleContent = () => {
+export const MiddleContent = (): JSX.Element => {
 	const dispatch = useDispatch();
 	const servicesInfo = useSelector((state: RootState) => state.services.servicesInfo);
 

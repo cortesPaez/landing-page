@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion';
 import { ReactComponent as SlackIcon } from '../../assets/svg/tools-slack.svg';
 import { ReactComponent as QuickBooksIcon } from '../../assets/svg/tools-quickbooks.svg';
 import { ReactComponent as GoogleIcon } from '../../assets/svg/tools-google-analytics.svg';
@@ -8,7 +9,7 @@ import { ReactComponent as ZapierIcon } from '../../assets/svg/tools-zapier.svg'
 import { ReactComponent as BackgroundCircle } from '../../assets/svg/tools-background-circle.svg';
 import './styles.css';
 
-export const Tools = () => {
+export const Tools = (): JSX.Element => {
 	const classIcon = 'tools__icon';
 	const toolsIcons = [
 		{
@@ -34,9 +35,17 @@ export const Tools = () => {
 		},
 	];
 
-	const firstFourIcons = toolsIcons.slice(0, 4).map((tool, index) => <div key={index}>{tool.icon}</div>);
+	const firstFourIcons = toolsIcons.slice(0, 4).map((tool, index) => (
+		<motion.div key={index} whileHover={{ scale: 1.5 }}>
+			{tool.icon}
+		</motion.div>
+	));
 
-	const lastThreeIcons = toolsIcons.slice(-3).map((tool, index) => <div key={index}>{tool.icon}</div>);
+	const lastThreeIcons = toolsIcons.slice(-3).map((tool, index) => (
+		<motion.div key={index} whileHover={{ scale: 1.5 }}>
+			{tool.icon}
+		</motion.div>
+	));
 
 	return (
 		<div className="tools">

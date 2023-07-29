@@ -2,7 +2,7 @@ import { ReactComponent as Logo } from '../../assets/svg/footer-logo.svg';
 import { Button } from '../../components';
 import './styles.css';
 
-export const Footer = () => {
+export const Footer = (): JSX.Element => {
 	return (
 		<>
 			<div className="footer">

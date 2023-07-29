@@ -50,6 +50,10 @@
 	z-index: 1;
 }
 
+.tools__icon {
+	cursor: pointer;
+}
+
 /** responsive**/
 /* tablet */
 @media only screen and (max-width: 1130px) {
