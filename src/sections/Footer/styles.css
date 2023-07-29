@@ -1,0 +1,154 @@
+.footer {
+	width: 100%;
+	right: 0;
+	background-color: #111827;
+	color: #FFFFFF;
+	padding: 112px 320px 40px 320px;
+	text-align: center;
+}
+
+.footer-container {
+	padding: 48px 208px;
+	text-align: center;
+}
+
+.footer__title {
+	color: #FFFFFF;
+	font-size: 48px;
+	font-weight: 600;
+	line-height: 60px;
+	letter-spacing: -0.01em;
+	margin-bottom: 16px;
+}
+
+.footer__paragraph {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 28px;
+	letter-spacing: 0.01em;
+	margin-bottom: 40px;
+}
+
+.footer__info {
+	padding: 0 112px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: #111827;
+}
+
+.footer__info-logo-container {
+	width: 100%;
+	display: flex;
+	gap: 24px;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	margin-top: 48px
+}
+
+hr {
+	width: 100%;
+	border: 1px solid #ffffff17;
+}
+
+.footer__info-logo {
+	width: 48px;
+	height: 48px;
+}
+
+.footer__info-logo {
+	width: 100px;
+}
+
+.footer__info-texts {
+	margin-top: 24px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 40px;
+}
+
+.footer__copyright {
+	color: #9CA3AF;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 20px;
+	letter-spacing: 0.01em;
+}
+
+.footer__copyright--white {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+
+@media only screen and (max-width: 1024px) {
+	.footer {
+		padding: 64px 40px;
+		text-align: center;
+	}
+
+	.footer__title {
+		font-size: 36px;
+		line-height: 48px;
+	}
+
+	.footer__info {
+		padding: 0 40px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.footer {
+		padding: 64px 40px;
+		text-align: center;
+	}
+
+	.footer__title {
+		font-size: 36px;
+		line-height: 48px;
+	}
+
+	.footer__info {
+		padding: 0 40px;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.footer__info-texts {
+		text-align: center;
+		flex-direction: column;
+		gap: 16px;
+	}
+}
+
+@media only screen and (max-width: 375px) {
+	.footer {
+		padding: 64px 20px;
+		text-align: center;
+	}
+
+	.footer__title {
+		font-family: Archivo;
+		font-size: 30px;
+		line-height: 40px;
+	}
+
+	.footer__paragraph {
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 24px;
+	}
+
+	.footer__info {
+		padding: 0 20px;
+	}
+
+	.footer__info-texts {
+		text-align: center;
+		flex-direction: column;
+		gap: 16px;
+	}
+}
