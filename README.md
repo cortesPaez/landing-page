@@ -1,5 +1,3 @@
-readme # Prueba Tecnica ReactJS 📝
-
 <!-- GETTING STARTED -->
 ## Getting Started
 
