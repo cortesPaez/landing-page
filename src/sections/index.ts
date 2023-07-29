@@ -1,6 +1,6 @@
 import { Footer } from './Footer/index';
 import { Hero } from './Hero/index';
-import { Services } from './Services/index';
+import { MiddleContent } from './MiddleContent/index';
 import { Tools } from './Tools/index';
 
-export { Footer, Hero, Services, Tools };
+export { Footer, Hero, MiddleContent, Tools };

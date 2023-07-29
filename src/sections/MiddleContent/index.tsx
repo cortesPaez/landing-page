@@ -19,7 +19,7 @@ export interface RootState {
 	};
 }
 
-export const Services = () => {
+export const MiddleContent = () => {
 	const dispatch = useDispatch();
 	const servicesInfo = useSelector((state: RootState) => state.services.servicesInfo);
 

@@ -1,5 +1,5 @@
 import { Navbar } from './components';
-import { Footer, Hero, Services, Tools } from './sections';
+import { Footer, Hero, MiddleContent as Services, Tools } from './sections';
 import './styles.css';
 
 const App = () => {

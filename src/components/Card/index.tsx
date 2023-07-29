@@ -1,5 +1,6 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import { ReactNode } from 'react';
+import './styles.css';
 
 interface Card {
 	icon: ReactNode;
@@ -9,11 +10,11 @@ interface Card {
 
 export const Card = ({ icon, title, paragraph }: Card): JSX.Element => {
 	return (
-		<div className="middlecontent__services-item">
+		<div className="card">
 			<div>{icon}</div>
 			<div>
-				<h1 className="middlecontent__services-title">{title}</h1>
-				<p className="middlecontent__services-paragraph">{paragraph}</p>
+				<h1 className="card__title">{title}</h1>
+				<p className="card__paragraph">{paragraph}</p>
 			</div>
 		</div>
 	);

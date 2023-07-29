@@ -1,8 +1,8 @@
-.services__item {
+.card {
 	text-align: center;
 }
 
-.services__title {
+.card__title {
 	font-size: 24px;
 	font-weight: 600;
 	line-height: 32px;
@@ -10,9 +10,32 @@
 	margin-bottom: 8px;
 }
 
-.services__paragraph {
+.card__paragraph {
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 24px;
 	letter-spacing: 0.01em;
+}
+
+@media only screen and (max-width: 375px) {
+	.card {
+		display: flex;
+		flex-direction: row;
+		gap: 16px
+	}
+
+	.card__title {
+		font-size: 20px;
+		line-height: 28px;
+		letter-spacing: 0.01em;
+		text-align: start;
+	}
+
+	.card__paragraph {
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 20px;
+		letter-spacing: 0.01em;
+		text-align: start;
+	}
 }
